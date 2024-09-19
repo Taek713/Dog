@@ -1,4 +1,4 @@
-# Dog
+# Doggos
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
@@ -8,8 +8,8 @@ const HomePage = ({ data }) => {
 
   return (
     <Layout>
-      <h1>Welcome to our Dog Adoption Site!</h1>
-      <p>We have many adorable dogs waiting for their forever homes. Browse our available dogs below:</p>
+      <h1>Dog Site!</h1>
+      <p>There are many doggos waiting for their homes. Browse available dogs below:</p>
       <ul>
         {dogs.edges.map(({ node }) => (
           <li key={node.id}>
